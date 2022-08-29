@@ -3,3 +3,6 @@
 ```shell
 mvn spring-boot:run
 ```
+
+
+[http://localhost:8080/user/all](http://localhost:8080/user/all)
