@@ -13,7 +13,7 @@ public interface UserMapper {
     @Select("SELECT * FROM User")
     List<User> findAll();
 
-    @Select("SELECT * FROM User WHERE uesrName = #{uesrName}")
+    @Select("SELECT * FROM User WHERE userName = #{uesrName}")
     User findByUserName(@Param("uesrName") String uesrName);
 
 }
